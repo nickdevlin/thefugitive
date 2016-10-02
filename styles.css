@@ -1,3 +1,40 @@
+ul {
+	border-style: dotted;
+	padding: 35px;
+}
+
+img {
+	margin: 25px;
+}
+
+footer {
+	text-align: center;
+}
+
 body {
-	background: blue;
+    background-image: url("unfold.png")
+}
+
+h3 {
+	font-family: arial;
+}
+
+.info {
+	font-weight: bold;
+	font-size: 150%
+}
+
+a:visited {
+    color: red;
+}
+
+#main {
+	border-style: solid;
+	border-color: purple;
+}
+
+@media only screen and (max-width: 500px) {
+    .info {
+        font-size: 100%;
+    }
 }
